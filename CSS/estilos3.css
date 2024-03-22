@@ -1,0 +1,20 @@
+body{
+    background-color: aquamarine;
+        .Primero{
+            color: rgb(24, 9, 240);
+            font-family: 'Trebuchet MS';
+            font-size: 320%;
+        }
+    
+        .contenedor-imagen {
+            display: flex
+            justify-content: center;
+            align-items: center; /* Esto es para centrado vertical si es necesario */
+        }
+        
+        img {
+            max-width: 50%; /* Esto asegura que la imagen no exceda el ancho del contenedor */
+            height: auto; /* Esto mantiene la proporción de la imagen */
+        }
+        
+    }
